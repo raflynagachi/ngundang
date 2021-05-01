@@ -124,8 +124,13 @@ body {
 
 .section {
   position: relative;
-  padding-top: 100px;
+  padding-top: 90px;
   padding-bottom: 80px;
+}
+
+.whitespace{
+  position: relative;
+  padding-top: 70px;
 }
 
 .section.colored {
@@ -458,7 +463,6 @@ header
 
 .header-area .main-nav .nav li a:hover {
   color: #FFD700;
-  font-weight: bold;
 }
 
 .header-area .main-nav .nav li .order:hover {
@@ -574,7 +578,12 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #FFD700;
+  background-color: #ffd90020;
+  font-weight: bold;
+  color: #333;
+  border-radius: 32px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 @media (max-width: 1200px) {

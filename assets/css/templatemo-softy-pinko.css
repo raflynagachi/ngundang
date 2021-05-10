@@ -683,7 +683,7 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/img_bg_1.jpg);
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/pernikahan2.webp);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; 
@@ -894,7 +894,7 @@ parallax & home seperator
   width: 140%;
   height: 140%;
   opacity: .95;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/img_bg_2.jpg);
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/pernikahan.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1044,7 +1044,7 @@ parallax & home seperator
   width: 140%;
   height: 140%;
   opacity: .90;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/img_bg_3.jpg);
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/pernikahan3.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;

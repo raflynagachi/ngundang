@@ -2415,6 +2415,25 @@ pricing
   transform: rotate(45deg);
 }
 
+.harga{
+  font-size: 28px;
+}
+
+.harga-coret{
+  font-size: 14px;
+  position: relative;
+}
+
+.harga-coret::after{
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: red;
+  position: absolute;
+  bottom: 7px;
+  left: 0;
+} 
+
 .pricing-item {
   background: #FFFFFF;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);

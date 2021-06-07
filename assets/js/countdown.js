@@ -1069,7 +1069,7 @@ document.addEventListener("touchstart", function() {}, false);
   "use strict";
   var dt = new Date();
   var cts = Math.ceil(new Date().getTime() / 1000);
-  var dt1 = "5/15/" + dt.getFullYear() + " 00:00:01 am +0000";
+  var dt1 = "7/4/" + dt.getFullYear() + " 00:00:01 am +0000";
   var dtClock1 = Math.ceil(new Date(dt1).getTime() / 1000);
   var flipTimeboxSeconds1 = (dtClock1 - cts) > 0 ? Math.ceil(dtClock1 - cts): 0;
   var dt2 = "01/01/" + (dt.getFullYear() + 1) + " 00:00:01 am +0000";

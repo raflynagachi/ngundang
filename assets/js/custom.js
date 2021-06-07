@@ -118,6 +118,12 @@
 		mobileNav();
 	});
 
+	$('.viewmore').click(function () {
+        $('.theme-groups .item-groups:hidden').slice(0, 1).show();
+        if ($('.theme-groups .item-groups').length == $('.theme-groups .item-groups:visible').length) {
+            $('.viewmore').hide();
+        }
+    });
 
 	// Window Resize Mobile Menu Fix
 	function mobileNav() {

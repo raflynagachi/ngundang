@@ -9,3 +9,5 @@ $(document).ready(function() {
 	document.getElementById("my_audio").play();
 	console.log('Bernyanyi');
   });
+
+  $('.married_countdown').countdown({until: new Date("Feb 28, 2022 15:00:00")});

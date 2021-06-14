@@ -745,6 +745,10 @@ button:focus{
 }
 .family-img{
 	position: relative;
+	height: 200px;
+	background-position: center;
+	background-size: cover;
+	overflow: hidden;
 }
 .family-img::after {
     position: absolute;

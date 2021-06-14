@@ -260,7 +260,7 @@ header {
 	color:#464646
 }
 /* content */
-#content {
+.content {
 	padding-top:42px;
 	padding-bottom:40px;
 	width:100%;
@@ -460,4 +460,55 @@ footer a:hover {
   }
   .google-map[data-state="loading"] [data-state-details] {
 	display: none;
+  }
+
+  .countdown-section{
+	margin: 12px;
+	padding: 12px;
+	text-align: center;
+	border-radius: 16px;
+}
+
+.married_countdown {
+	font: 400 40px/48px Roboto Condensed;
+	text-align: center;
+	position:relative;
+	margin: 20px 0 0 0;
+	color: #ffffff;
+  }
+  
+  .married_countdown .countdown-section {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	margin: 0 10px;
+	min-width: 60px;
+	position: relative;
+  	background-color: rgb(48, 160, 151);
+  }
+  
+  .married_countdown .countdown-amount {
+	min-width: 60px;
+	text-align: center;
+  }
+  
+  .married_countdown .countdown-section:before {
+	content: " : ";
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 0 0 -15px;
+	position: absolute;
+	left: 0;
+	color: rgb(48, 160, 151);
+  }
+  
+  .married_countdown .countdown-section:first-child:before {
+	display: none
+  }
+  
+  .married_countdown .countdown-period {
+	font: 20px/24px Great Vibes;
+	color: #C5C3BE;
+	display: block;
+	text-transform: lowercase;
   }
